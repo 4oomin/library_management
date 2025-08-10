@@ -106,6 +106,7 @@
             BookRemoveBtn.TabIndex = 3;
             BookRemoveBtn.Text = "Remove";
             BookRemoveBtn.UseVisualStyleBackColor = true;
+            BookRemoveBtn.Click += BookRemoveBtn_Click;
             // 
             // BookRegisterBtn
             // 
@@ -115,6 +116,7 @@
             BookRegisterBtn.TabIndex = 2;
             BookRegisterBtn.Text = "Register";
             BookRegisterBtn.UseVisualStyleBackColor = true;
+            BookRegisterBtn.Click += BookRegisterBtn_Click;
             // 
             // BookResultLbl
             // 
